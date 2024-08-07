@@ -56,7 +56,8 @@ a:hover{
     color:#fff;
     transition: all 200ms ease-in;
 }
-
+.mt-6{
+    margin-top : 6rem;
 /* responsive css */
 
 @media (min-width: 576px) { 
