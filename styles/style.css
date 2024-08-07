@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "karla";
+    src: url("../font/Karla.ttf");
+}
+/* reset Css */
+p,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none; 
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: karla;
+    height: 100vh;
+   
+}
+/* styles css*/
+
+.primary-bg-color{
+   background-color: hsl(179, 62%, 43%);
+}
+.primary-text-color{
+   color: hsl(179, 62%, 43%);
+
+}
+.secondary-text-color{
+    color: hsl(71, 73%, 54%);
+}
+.secondary-bg-color{
+    background-color: hsl(71, 73%, 54%);
+}
+.white-bg-color{
+    background-color: hsl(204, 43%, 93%);
+}
+.white-text-color{
+    color: hsl(203, 44%, 93%);
+}
+.gray-color{
+   color: hsl(218, 22%, 67%);
+}
+.box-shadow{
+    box-shadow: 0 1rem 2.5rem hsl(204, 43%, 93%);
+}
+.brightness{
+    filter: brightness(1.25);
+    opacity: 0.8;
+}
+
+a:hover{
+    background-color: hsl(71, 79%, 44%);
+    color:#fff;
+    transition: all 200ms ease-in;
+}
+
+/* responsive css */
+
+@media (min-width: 576px) { 
+    .width-md{
+        width: 75% !important;
+    }
+    .width-sec{
+        width: 50% !important;
+    }
+    .description{
+        max-width: 75%;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+   
+    .pad-5{
+            padding: 3rem !important ;
+    }
+    .pad-1{
+        padding: 0.5rem !important;
+    }
+
+ }
